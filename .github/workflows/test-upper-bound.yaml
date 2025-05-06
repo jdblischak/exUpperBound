@@ -23,10 +23,10 @@ jobs:
           use-public-rspm: true
       - name: Install pak
         run: install.packages("pak")
-        script: Rscript {0}
+        shell: Rscript {0}
       - name: Install dependencies
         run: pak::pak()
-        script: Rscript {0}
+        shell: Rscript {0}
 
   # Install dependencies with setup-r-dependencies
   use-action:
