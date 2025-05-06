@@ -1,0 +1,6 @@
+Package: exUpperBound
+Type: Package
+Title: Example with a dependency with an upper bound
+Version: 0.1.0
+License: Unlimited
+Imports: future (< 1.40)
