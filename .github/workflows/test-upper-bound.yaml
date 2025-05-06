@@ -10,7 +10,7 @@ jobs:
   # Install dependencies directly with pak
   use-pak:
     runs-on: ${{ matrix.os }}
-    name: use-action (${{ matrix.os }})
+    name: use-pak (${{ matrix.os }})
     strategy:
       fail-fast: false
       matrix:
